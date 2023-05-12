@@ -1,2 +1,2 @@
 # UltimaArt
-Artwork for TazUO Gump Override
+Artwork for TazUO Gump & Art Override
