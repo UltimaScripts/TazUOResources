@@ -1,7 +1,9 @@
 # UltimaScripts' TazUO Resources
 Artwork for TazUO Gump & Art Override
+
 Tooltip Overrides
 
-Credits
+# Credits
 TazUO
+
 https://github.com/bittiez/ClassicUO
