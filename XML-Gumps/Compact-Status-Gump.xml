@@ -17,7 +17,3 @@
 	<text x="65" y="100" size="18" hue="69" updates="true">{poisonres}</text>
 	<text x="88" y="100" size="18" hue="19" updates="true">{energyres}</text>
 </gump>
-<!--
-4700 - 4704 are custom art cut from uo gump art
-https://i.imgur.com/SVNIUx7.png
--->
