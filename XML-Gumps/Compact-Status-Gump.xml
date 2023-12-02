@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gump x="100" y="100">
+	<colorbox hue="1" width="108" height="120" alpha="0.70"/>
+	<color_progress_bar background_hue="32" foreground_hue="68" width="106" height="20" value="{hp}" max_value="{maxhp}" x="2" y="2" updates="true"/>
+	<color_progress_bar background_hue="802" foreground_hue="3" width="106" height="16" value="{mana}" max_value="{maxmana}" x="2" y="23" updates="true"/>
+	<color_progress_bar background_hue="802" foreground_hue="53" width="106" height="8" value="{stam}" max_value="{maxstam}" x="2" y="40" updates="true"/>
+	<text x="2" y="46" size="33" hue="68" updates="true">{hp}</text>
+	<text x="54" y="46" size="33" hue="99" updates="true">{mana}</text>
+	<image id="40251" hue="0" x="2" y="78" rect="37;35;16;21"/>
+	<image id="40251" hue="0" x="22" y="78" rect="157;4;15;21"/>
+	<image id="40251" hue="0" x="40" y="78" rect="3;3;23;23"/>
+	<image id="40251" hue="0" x="64" y="78" rect="64;34;23;22"/>
+	<image id="40251" hue="0" x="88" y="78" rect="126;3;18;23"/>
+	<text x="2" y="100" size="18" hue="941" updates="true">{phyres}</text>
+	<text x="22" y="100" size="18" hue="33" updates="true">{fireres}</text>
+	<text x="42" y="100" size="18" hue="90" updates="true">{coldres}</text>
+	<text x="65" y="100" size="18" hue="69" updates="true">{poisonres}</text>
+	<text x="88" y="100" size="18" hue="19" updates="true">{energyres}</text>
+</gump>
+<!--
+4700 - 4704 are custom art cut from uo gump art
+https://i.imgur.com/SVNIUx7.png
+-->

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<gump x="490" y="132">
+	<image id="10860" hue="0" x="0" y="0" rect="42;47;490;132"/>
+	<!--The Status Bar
+		By Elliptical
+	 >>>Comment the Bars you don't want
+	 >>>Uncomment the bars you do want
+		-->
+	<!--Traditional Stacked Bars-->
+	<!--
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{hp}" max_value="{maxhp}" x="2" y="-12" updates="true"/>
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{mana}" max_value="{maxmana}" x="2" y="0" updates="true"/>
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{stam}" max_value="{maxstam}" x="2" y="12" updates="true"/>
+		-->
+	<!--Traditional Horizontal Bars-->
+	
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{hp}" max_value="{maxhp}" x="2" y="2" updates="true"/>
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{mana}" max_value="{maxmana}" x="110" y="2" updates="true"/>
+	<image_progress_bar background_image="2053" foreground_image="2054" value="{stam}" max_value="{maxstam}" x="220" y="2" updates="true"/>
+		
+	<!--Progress Bars Horizontal-->
+	<!--
+	<color_progress_bar background_hue="32" foreground_hue="68" width="163" height="19" value="{hp}" max_value="{maxhp}" x="0" y="0" updates="true"/>
+	<color_progress_bar background_hue="802" foreground_hue="3" width="163" height="19" value="{mana}" max_value="{maxmana}" x="163" y="0" updates="true"/>
+	<color_progress_bar background_hue="802" foreground_hue="53" width="163" height="19" value="{stam}" max_value="{maxstam}" x="326" y="0" updates="true"/>
+		-->
+	<!--Progress Bars HP Mana-->
+	<!--
+	<color_progress_bar background_hue="32" foreground_hue="68" width="245" height="19" value="{hp}" max_value="{maxhp}" x="0" y="0" updates="true"/>
+	<color_progress_bar background_hue="802" foreground_hue="3" width="245" height="19" value="{mana}" max_value="{maxmana}" x="245" y="0" updates="true"/>
+		-->
+	<!--Progress Bar HP-->
+	<!--
+	<color_progress_bar background_hue="32" foreground_hue="68" width="490" height="19" value="{hp}" max_value="{maxhp}" x="0" y="0" updates="true"/>
+		-->
+	<!--________________________________
+		Non-Bar Related Stuff Below Here
+		________________________________
+		-->
+	<!--Strength-->
+	<text x="35" y="22" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{str} </text>
+	<!--Dexterity-->
+	<text x="35" y="50" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{dex} </text>
+	<!--Intelligence-->
+	<text x="35" y="78" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{int} </text>
+	<!--Hit Chance Increase-->
+	<text x="35" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{hci} </text>
+	<!--hp & maxhp-->
+	<text x="114" y="19" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{hp} </text>
+	<text x="114" y="22" hue="1" size="15" font="HankenGrotesk-SemiBold" updates="true">_____ </text>
+	<text x="114" y="32" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{maxhp} </text>
+	<!--stam & maxstam-->
+	<text x="114" y="47" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{stam} </text>
+	<text x="114" y="50" hue="1" size="15" font="HankenGrotesk-SemiBold" updates="true">_____ </text>
+	<text x="114" y="60" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{maxstam} </text>
+	<!--mana & maxmana-->
+	<text x="114" y="75" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{mana} </text>
+	<text x="114" y="78" hue="1" size="15" font="HankenGrotesk-SemiBold" updates="true">_____ </text>
+	<text x="114" y="88" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{maxmana} </text>
+	<!--Defense Chance Increase-->
+	<text x="114" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{defchance}/{defchancemax} </text>
+	<!--Max Stats-->
+	<text x="200" y="22" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{maxstats} </text>
+	<!--Luck-->
+	<text x="200" y="50" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{luck}</text>
+	<!--Weight & MaxWeight-->
+	<text x="200" y="75" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{weight} </text>
+	<text x="200" y="78" hue="1" size="15" font="HankenGrotesk-SemiBold" updates="true">_____ </text>
+	<text x="200" y="88" hue="1" size="18" font="HankenGrotesk-SemiBold" updates="true">{maxweight} </text>
+	<!--Lower Mana Cost-->
+	<text x="200" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{lmc} </text>
+	<!--Min Damage / Max Damage-->
+	<text x="275" y="22" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{damagemin}/{damagemax} </text>
+	<!--Damage Increase-->
+	<text x="275" y="50" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{di} </text>
+	<!--Followers / MaxFollowers-->
+	<text x="275" y="78" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{pets}/{petsmax} </text>
+	<!--Swing Speed Increase-->
+	<text x="275" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{ssi} </text>
+	<!--Lower Reagent Cost-->
+	<text x="356" y="22" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{lrc} </text>
+	<!--Spell Damage Increase-->
+	<text x="356" y="50" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{sdi} </text>
+	<!--Faster Casting-->
+	<text x="356" y="78" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{fc} </text>
+	<!--Faster Casting Recovery-->
+	<text x="356" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{fcr} </text>
+	<!--Physical Resist / Max Physical Resist-->
+	<text x="432" y="22" hue="1" size="20" font="RobotoSlab-Regular" updates="true">{phyres}/{phyresmax} </text>
+	<!--Fire Resist / Max Fire Resist-->
+	<text x="432" y="38" hue="1" size="20" font="RobotoSlab-Regular" updates="true">{fireres}/{fireresmax} </text>
+	<!--Cold Resist / Max Cold Resist-->
+	<text x="432" y="53" hue="1" size="20" font="RobotoSlab-Regular" updates="true">{coldres}/{coldresmax} </text>
+	<!--Poison Resist / Max Poison Resist-->
+	<text x="432" y="67" hue="1" size="20" font="RobotoSlab-Regular" updates="true">{poisonres}/{poisonresmax} </text>
+	<!--Energy Resist / Max Energy Resist-->
+	<text x="432" y="82" hue="1" size="20" font="RobotoSlab-Regular" updates="true">{energyres}/{energyresmax} </text>
+	<!--Gold-->
+	<text x="432" y="106" hue="1" size="24" font="RobotoSlab-Regular" updates="true">{gold} </text>
+</gump>
